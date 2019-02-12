@@ -1,0 +1,106 @@
+body {
+    margin: 0;
+    background-color: #fff;
+    background-image: url('https://www.transparenttextures.com/patterns/bright-squares.png')
+}
+
+.navbar {
+    height: 50px;
+    background-color: #444;
+    margin: 0;
+}
+
+.nav-brand {
+    float: left;
+    margin-top: 14px;
+    margin-left: 15px;
+    text-decoration: none;
+    color: #ccc;
+}
+
+.nav-list {
+    margin: 0;
+    float: right;
+    list-style-type: none;
+    margin-top: 15px;
+}
+
+.nav-list-item {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.nav-list-item a {
+    font-weight: bold;
+    color: #ccc;
+    text-decoration: none;
+}
+
+.page-heading {
+    margin: 0;
+    text-align: center;
+    font-size: 45px;
+    font-weight: bold;
+    padding: 120px 0;
+    background: url('./img/skyline.jpeg') center left no-repeat;
+}
+
+.content {
+    display: flex;
+}
+
+.articles {
+    padding: 30px;
+}
+
+.articles-list {
+    list-style-type: none;
+}
+
+.news-list-item {
+    padding-top: 50px;
+    display: flex;
+}
+
+.imgbox {
+    width: 200px;
+    height: 200px;
+    border-radius: 80px 0 0 80px;
+}
+
+#img-nsa {
+    background: url('./img/hack.jpeg') center;
+}
+
+#img-python {
+    background: url('./img/python.jpeg') center;
+}
+
+#img-tax {
+    background: url('./img/taxes.jpeg') center;
+}
+
+.article-content {
+    flex: 1;
+    padding-left: 20px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 0 80px 80px 0;
+}
+
+.article-headline {
+    font-size: 30px;
+}
+
+.advertisement {
+    padding: 20px;
+    background-color: #444;
+    color: #ccc;
+    width: 300px;
+}
+
+footer {
+    text-align: center;
+    bottom: 0;
+    padding: 20px;
+    background-color: #ccc
+}
